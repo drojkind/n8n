@@ -2,7 +2,7 @@
 application:
   name: "n8n"
   project: "n8n"
-  organization: "QoveryCommunity"
+  organization: "While and for"
 databases:
 - type: "POSTGRESQL"
   name: "n8n-db"
