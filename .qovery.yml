@@ -1,14 +1,15 @@
+---
 application:
-  name: n8n
-  project: CHANGEME
-  publicly_accessible: true
+  name: "n8n"
+  project: "n8n"
+  organization: "QoveryCommunity"
 databases:
-- type: postgresql
-  version: 12
-  name: my-postgresql-database
+- type: "POSTGRESQL"
+  name: "n8n-db"
+  version: "12"
 routers:
-- name: main
+- name: "main-n8n"
   routes:
-  - application_name: n8n
+  - application_name: "n8n"
     paths:
-    - /*
+    - "/*"
