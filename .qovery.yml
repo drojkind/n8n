@@ -9,6 +9,9 @@ databases:
   version: "12"
 routers:
 - name: "main-n8n"
+  custom_domains:
+  - branch: main
+    domain: n8n.pickmee.io
   routes:
   - application_name: "n8n"
     paths:
